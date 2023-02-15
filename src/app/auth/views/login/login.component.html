@@ -1,0 +1,17 @@
+<div class="container-login">
+  <form class="login" [formGroup]="loginForm" (ngSubmit)="login()">
+    <mat-form-field appearance="outline" class="full-width">
+      <mat-label>Correo electrónico</mat-label>
+      <input matInput type="text" placeholder="email@example.com" formControlName="email">
+      <mat-icon matSuffix>email</mat-icon>
+    </mat-form-field>
+    <mat-form-field appearance="outline" class="full-width">
+      <mat-label>Contraseña</mat-label>
+      <input matInput type="password" placeholder="Ingrese contraseña" formControlName="password">
+      <mat-icon matSuffix>lock</mat-icon>
+    </mat-form-field>
+    <div class="action">
+      <button mat-raised-button>Iniciar sesión</button>
+    </div>
+  </form>
+</div>

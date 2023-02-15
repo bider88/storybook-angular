@@ -1,0 +1,25 @@
+.container-login {
+  width: 100%;
+  height: 100vh;
+  background: url('https://source.unsplash.com/a2NRu2Wxa2o/');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .login {
+    width: 300px;
+    background: white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 40px;
+  }
+}
+
+.full-width {
+  width: 100%;
+}
